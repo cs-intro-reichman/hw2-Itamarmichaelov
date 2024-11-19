@@ -4,7 +4,7 @@ public class Cheers {
         String chears = args[0];       
         int reapet = Integer.parseInt(args[1]);
         int iteration = chears.length();
-        System.out.println(chears.charAt(0));
+        // System.out.println(chears.charAt(0));
         for(int i= 0; i < iteration ; i++)
         {
         switch  (chears.charAt(i)) {
