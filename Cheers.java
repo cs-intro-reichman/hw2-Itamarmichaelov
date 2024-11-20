@@ -4,6 +4,7 @@ public class Cheers {
         String chears = args[0];       
         int reapet = Integer.parseInt(args[1]);
         int iteration = chears.length();
+        chears = chears.toUpperCase();
         // System.out.println(chears.charAt(0));
         for(int i= 0; i < iteration ; i++)
         {
